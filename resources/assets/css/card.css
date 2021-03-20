@@ -1,0 +1,143 @@
+.shop-cs-profile img.shop-cs-image-lg{
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 5px;
+
+}
+
+.shop-cs-profile-desc-wall-right small
+{
+  position: static;
+  /*font-size: 14px;*/
+  letter-spacing: 2px;
+  padding-left: 5px;
+}
+
+.shop-cs-profile-desc-wall-right h4
+{
+  position: static;
+  bottom: 0px;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 5px;
+  /*font-size: 28px;*/
+}
+
+.shop-cs-profile-desc small
+{
+  position: static;
+  /*bottom: 40px;*/
+  color: gray;
+  /*left: 15px;*/
+  /*text-shadow: 2px 2px 4px #000000;*/
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+
+
+.shop-cs-profile-desc h1
+{
+  position: static;
+  bottom: 0px;
+  color: gray;
+  /*left: 15px;*/
+  /*text-shadow: 2px 2px 4px #000000;*/
+  font-weight: 700;
+  margin: 0;
+  font-size: 28px;
+}
+
+
+
+    /*xs: 480,
+    sm: 768,
+    md: 992,
+    lg: 1200*/
+
+@media (max-width:768px)
+{
+  .shop-cs-profile-desc>h1{
+    position: static;
+    /*bottom: 60px;*/
+    color: gray;
+    /*left: 10px;*/
+    /*text-shadow: 2px 2px 4px #000000;*/
+    font-weight: 700;
+    font-size:20px;
+  }
+  .shop-cs-profile-desc>small{
+    position: static;
+    /*bottom: 40px;*/
+    color: gray;
+    /*left: 10px;*/
+    /*text-shadow: 2px 2px 4px #000000;*/
+    font-size:15px;
+    letter-spacing: 2px;
+  }
+  .shop-cs-image-profile
+  {
+
+      margin: -45px 10px 0px 25px;
+      z-index: 9;
+      width: 25%;
+      right: 10px;
+      bottom: 0px;
+  }
+}
+
+
+
+.shop-cs-image-profile
+{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%;
+}
+
+
+
+img.shopLogo
+{
+  /*position: relative;*/
+  margin-bottom:10px;
+  /*margin-top: 5px;*/
+  /*margin-right: 10px;*/
+  /*border-top-left-radius: 8px;*/
+}
+
+/*.shop-info
+{
+  position: relative;
+  left:60px;
+  top:5px;
+}*/
+
+.logo-and-info {
+  margin: 0;
+  padding: 10px;
+  min-height: 60px;
+}
+.shop-logo {
+float:left;
+width:50px;
+overflow:hidden;
+}
+.shop-info {
+overflow:hidden;
+word-wrap: break-word;
+font-size: 16px;
+}
+
+.shop-cs-image-lg{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-bottom: 8px;
+}
